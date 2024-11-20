@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.585b7b23.css",
+    "main.js": "/static/js/main.3cf68bab.js",
+    "static/js/453.4ba15d93.chunk.js": "/static/js/453.4ba15d93.chunk.js",
+    "static/media/Data Analytics - Animation.gif": "/static/media/Data Analytics - Animation.308e5bf726c9a3de157e.gif",
+    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/logo.png": "/static/media/logo.b6fb70c6715ce078e1fb.png",
+    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/logo.jpeg": "/static/media/logo.9428fd4fe305552f7b2e.jpeg",
+    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/index.html",
+    "main.585b7b23.css.map": "/static/css/main.585b7b23.css.map",
+    "main.3cf68bab.js.map": "/static/js/main.3cf68bab.js.map",
+    "453.4ba15d93.chunk.js.map": "/static/js/453.4ba15d93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.585b7b23.css",
+    "static/js/main.3cf68bab.js"
+  ]
+}

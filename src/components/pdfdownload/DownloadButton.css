@@ -1,0 +1,38 @@
+/* Styles for the button container */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adds space above the container */
+  }
+  
+  /* Styles for the download button */
+  .download-button {
+    width: 200px;
+    background-color: #007bff; /* Blue */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-align: center;
+    display: inline-block;
+    margin: 20px; /* Reset any default margin */
+  }
+  
+  .download-button:hover {
+    background-color: #0056b3; /* Darker Blue */
+    transform: scale(1.05);
+  }
+  
+  .download-button:active {
+    transform: scale(0.95);
+  }
+  
+  .download-button:disabled {
+    background-color: #d6d6d6; /* Light Gray */
+    cursor: not-allowed;
+  }
+  

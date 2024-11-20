@@ -1,0 +1,59 @@
+.downLoadButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh; 
+  }
+  
+  .downLoadButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition */
+    text-decoration: none !important; /* Remove underline */
+    display: inline-block; /* Ensure it's treated as a block-level element */
+  }
+  
+  .downLoadButton:hover {
+    background-color: #0056b3; /* Change color on hover */
+  }
+  
+  
+.title {
+  font-family: 'Arial', sans-serif;
+  font-size: 2em;
+  font-weight: bold; 
+  text-align: center; 
+  color: #097abf; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+  padding: 10px; 
+  border-bottom: 2px solid #097abf; 
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.nameAddr {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+
+.nameAddr label {
+  flex: 1; 
+  min-width: 200px; 
+  margin: 10px;
+  display: flex; 
+  flex-direction: column; 
+}

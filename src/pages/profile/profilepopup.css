@@ -1,0 +1,382 @@
+/* Base Styles */
+.profile-popup {
+    position: fixed;
+    top: 45%;
+    left: 89.5%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #6DAFFE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    /* Ensure it appears above other content */
+}
+ 
+.image-placeholder {
+    position: absolute;
+    top: 130px;
+    left: 50r;
+    color: white;
+}
+ 
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+ 
+.profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.profile-image-container {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #6DAFFE;
+    /* Default background color for no image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    /* Border around the image container */
+    top: 50px;
+    right: 46px;
+    transform: translateX(-50%);
+}
+ 
+.profile-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    color: white;
+    left: -1%;
+}
+ 
+.profile-details {
+    position: absolute;
+    top: 185px;
+    text-align: center;
+    width: 100%;
+}
+ 
+.save-icon {
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    top: 209px;
+    left: 8rem;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+ 
+.success-message {
+    position: fixed;
+    color: rgb(20, 102, 41);
+    margin-top: -12px;
+    top: 89px;
+    left: 12rem;
+}
+ 
+.error-message {
+    position: fixed;
+    color: red;
+    margin-top: -2px;
+    top: 89px;
+    left: 12rem;
+}
+ 
+.signout-link {
+    position: absolute;
+    color: black;
+    /* Blue color for the link */
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    top: 79px;
+    left: 3rem;
+    /* Makes the link more prominent */
+}
+ 
+.signout-link:hover {
+    text-decoration: underline;
+    color: black;
+    /* Darker blue on hover */
+}
+ 
+.signout-icon {
+    position: absolute;
+    font-size: 18px;
+    /* Icon size */
+    color: black;
+    top: 90px;
+    left: 1rem;
+}
+ 
+.profile-icon {
+    font-size: 30px;
+    /* Adjust size as needed */
+    cursor: pointer;
+    position: relative;
+}
+ 
+.profile-icon-img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0.5rem;
+    right:1cap;
+    border-radius: 50%;
+    object-fit: cover;
+}
+ 
+.edit-button {
+    position: fixed;
+    background-color: white;
+    /* Change to your preferred color */
+    color: rgb(28, 28, 206);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 50px;
+    height: 30px;
+    top: 150px;
+    left: 7.5rem;
+}
+ 
+.edit-button:hover {
+    background-color: white;
+    /* Darker color on hover */
+}
+ 
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .profile-popup {
+        left: 80%;
+        width: 280px;
+        height: 480px;
+    }
+ 
+    .profile-image-container {
+        width: 90px;
+        height: 90px;
+        top: 40px;
+        right: 36px;
+    }
+ 
+    .profile-details {
+        top: 170px;
+    }
+ 
+    .save-icon {
+        width: 180px;
+        height: 45px;
+        top: 200px;
+        left: 7rem;
+    }
+ 
+    .success-message {
+        left: 10rem;
+    }
+ 
+    .error-message {
+        left: 10rem;
+    }
+ 
+    .signout-link {
+        left: 2rem;
+    }
+ 
+    .signout-icon {
+        left: 0.5rem;
+    }
+ 
+    .profile-icon-img {
+        top: 1rem;
+        left: 85rem;
+    }
+ 
+    .edit-button {
+        top: 140px;
+        left: 6.5rem;
+    }
+}
+ 
+@media (max-width: 992px) {
+    .profile-popup {
+        left: 70%;
+        width: 260px;
+        height: 450px;
+    }
+ 
+    .profile-image-container {
+        width: 80px;
+        height: 80px;
+        top: 30px;
+        right: 26px;
+    }
+ 
+    .profile-details {
+        top: 150px;
+    }
+ 
+    .save-icon {
+        width: 160px;
+        height: 40px;
+        top: 190px;
+        left: 6rem;
+    }
+ 
+    .success-message {
+        left: 8rem;
+    }
+ 
+    .error-message {
+        left: 8rem;
+    }
+ 
+    .signout-link {
+        left: 1rem;
+    }
+ 
+    .signout-icon {
+        left: 0rem;
+    }
+ 
+    .profile-icon-img {
+        top: 0.5rem;
+        left: 82rem;
+    }
+ 
+    .edit-button {
+        top: 130px;
+        left: 6rem;
+    }
+}
+ 
+@media (max-width: 768px) {
+    .profile-popup {
+        left: 50%;
+        width: 90%;
+        height: auto;
+        transform: translate(-50%, 0);
+    }
+ 
+    .profile-image-container {
+        width: 70px;
+        height: 70px;
+        top: 20px;
+        right: 20px;
+    }
+ 
+    .profile-details {
+        top: 120px;
+    }
+ 
+    .save-icon {
+        width: 140px;
+        height: 35px;
+        top: 180px;
+        left: 5rem;
+    }
+ 
+    .success-message {
+        left: 5rem;
+    }
+ 
+    .error-message {
+        left: 5rem;
+    }
+ 
+    .signout-link {
+        left: 0;
+    }
+ 
+    .signout-icon {
+        left: -1rem;
+    }
+ 
+    .profile-icon-img {
+        top: 0.5rem;
+        left: 78rem;
+    }
+ 
+    .edit-button {
+        top: 120px;
+        left: 5rem;
+    }
+}
+ 
+@media (max-width: 576px) {
+    .profile-popup {
+        width: 100%;
+        height: auto;
+        left: 0;
+        transform: translate(0, 0);
+    }
+ 
+    .profile-image-container {
+        width: 60px;
+        height: 60px;
+        top: 10px;
+        right: 10px;
+    }
+ 
+    .profile-details {
+        top: 100px;
+    }
+ 
+    .save-icon {
+        width: 120px;
+        height: 30px;
+        top: 160px;
+        left: 3rem;
+    }
+ 
+    .success-message {
+        left: 3rem;
+    }
+ 
+    .error-message {
+        left: 3rem;
+    }
+ 
+    .signout-link {
+        font-size: 12px;
+        left: 0;
+    }
+ 
+    .signout-icon {
+        font-size: 16px;
+        left: -1rem;
+    }
+ 
+    .profile-icon-img {
+        top: 0;
+        left: 72rem;
+    }
+ 
+    .edit-button {
+        top: 100px;
+        left: 3rem;
+    }
+}

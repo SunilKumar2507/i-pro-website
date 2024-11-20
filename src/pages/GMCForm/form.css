@@ -1,0 +1,1500 @@
+.gmcForm {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #ffffff; */
+    border-radius: 8px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.gmcFormTitle {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.Clent-info-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 5px;
+    padding: 10px;
+}
+
+.clientNameContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.clientName {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.addressContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.address {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.clientNameInput,
+.clientAddressInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 180%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+}
+
+
+.expiringTitleSection,
+.renewalPolicyDetailsSection,
+.requiredDataChangesSection {
+    margin: 20px 0;
+}
+
+.expiringTitle,
+.renewalPolicyDetails,
+.requiredDataChanges {
+    background-color: #6FA9E6;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.row1-grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+.insurername-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.insurerName {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.tpaName-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.tpaName {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.insurerNameInput,
+.tpaNameInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 180%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+}
+
+.policyPeriodContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.policyPeriod {
+    flex: 0 0 100%;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.policyPeriodStart {
+    /* display: block; */
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.policyPeriodEnd {
+    /* display: block; */
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.policyPeriodStartInput,
+.policyPeriodEndInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 15px;
+    margin-left: 40px;
+}
+
+
+.policyPeriodEndInput {
+    margin-right: 0;
+}
+
+
+
+.row2-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+.noOfEmp-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.noOfEmp {
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.noOfDep-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.noOfDep {
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+
+.premiumExcludingGst {
+    flex: 0 0 70%;
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.noOfEmpInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 91%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+    margin-left: 19px;
+}
+
+.noOfDepInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+}
+
+.premiumExcludingGstInput {
+    flex: 0 0 30%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 97%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+    margin-left: 4px;
+}
+
+
+
+
+.row3-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+.premiumPerFamily-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.premiumPerFamily {
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.premiumPerLife-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.premiumPerLife {
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.noOfLives-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.noOfLives {
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+
+
+.premiumPerFamilyInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+}
+
+.premiumPerLifeInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 83%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+    margin-left: 31px;
+}
+
+.noOfLivesInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+}
+
+
+
+.row4-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+.exSumInsured-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.exSumInsured {
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.totalSumInsured-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.totalSumInsured {
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.row7-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+.totalclaimspaidoutstandingdate {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+
+    padding: 4px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.totalClaimPaid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.totalClaimPaid {
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.totalClaimPaidInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 162%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.premiumExcludingGst-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.premiumExcludingGst {
+    flex: 0 0 70%;
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.premiumExcludingGstInput {
+    flex: 0 0 30%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 97%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+    margin-left: 4px;
+}
+
+.claimRatio-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.claimRatio {
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.exSumInsuredInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 93%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+.totalSumInsuredInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 93%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+    margin-left: 15px;
+}
+
+
+
+.claimRatioInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 70%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+    margin-left: 75px;
+}
+
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .input-suffix {
+    position: absolute;
+    right: 20px; 
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; 
+  }
+  .input-suffix2 {
+    position: absolute;
+    right: 20px; 
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; 
+  }
+  
+
+
+.row5-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+.claimsOutgo-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.claimsOutgo {
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.claimsRatio365-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.claimsRatio365 {
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.ibnr-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.ibnr {
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.claimsOutgoInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 80%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+    margin-left: 55px;
+}
+
+.claimsRatio365Input {
+    display: inline-block;
+    vertical-align: middle;
+    width: 93%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+}
+.ibnrInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 90%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+    margin-left: 22px;
+}
+
+.row6-grid-container,
+.renewalrow3-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.familyDef-container,
+.renewalFamilyDef-container {
+    display: flex;
+    align-items: center;
+}
+
+.familyDef,
+.renewalFamilyDef {
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+.familyDefSelect,
+.renewalFamilyDefSelect {
+    width: 63%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.familyDefSelect:focus,
+.renewalFamilyDefSelect:focus {
+    border-color: #007bff;
+    background-color: #fff;
+}
+
+
+.renewalRow1-grid-container,
+.renewalRow2-grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+}
+
+.renewalNumberOfEmp-container,
+.renewalTotalNumberOfLives-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.renewalNumberOfEmp,
+.renewalTotalNumberOfLives {
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.renewalNumberOfDep-container,
+.renewalTotalSumInsured-container,
+.renewalSumInsured-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+.renewalNumberOfDep,
+.renewalTotalSumInsured,
+.renewalSumInsured {
+    font-size: 1em;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.renewalTotalSumInsuredInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 170%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+}
+
+.renewalNumberOfDepInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 152%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+    margin-left: 25px;
+}
+
+.renewalSumInsuredInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 145%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+    margin-left: 40px;
+}
+
+.renewalNumberOfEmpInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 165%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+    margin-left: 6px;
+}
+
+.renewalTotalNumberOfLivesInput {
+    display: inline-block;
+    vertical-align: middle;
+    width: 170%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e7f1fd;
+    margin-right: 5px;
+}
+
+.requiredDataChanges-section {
+    margin-left: 20px;
+}
+
+.ageband-container {
+    display: flex;
+    align-items: center;
+}
+
+.ageband {
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+.agebandSelect {
+    width: 20%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+.agebandSelect:focus {
+    border-color: #007bff;
+    background-color: #fff;
+}
+
+
+
+
+.rSumInsured-container,
+.rPreAndPostNatal-container,
+.rTroicLence-container,
+.rLasikSurgery-container,
+.rAnimal-container,
+.rSleepApnea-container,
+.rIncomeProtector-container,
+.rExtendCancer-container,
+.rOralMedication-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+}
+
+.rSumInsured,
+.rPreAndPostNatal,
+.rTroicLence,
+.rLasikSurgery,
+.rAnimal,
+.rSleepApnea,
+.rIncomeProtector,
+.rExtendCancer,
+.rOralMedication {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.enabledCheckbox {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.enabledCheckbox2 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 150px;
+    cursor: pointer;
+}
+
+.enabledCheckbox3 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 105px;
+    cursor: pointer;
+}
+
+.enabledCheckbox4 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 160px;
+    cursor: pointer;
+}
+
+.enabledCheckbox5 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 144px;
+    cursor: pointer;
+}
+
+.enabledCheckbox6 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 85px;
+    cursor: pointer;
+}
+
+.enabledCheckbox7 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 56px;
+    cursor: pointer;
+}
+
+.enabledCheckbox8 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 51px;
+    cursor: pointer;
+}
+
+.enabledCheckbox9 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 118px;
+    cursor: pointer;
+}
+
+.enabledCheckbox10 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 78px;
+    cursor: pointer;
+}
+
+.rSumInsuredContent,
+.rPreAndPostNatalContent,
+.rTroicLenceContent,
+.rLasikSurgeryContent,
+.rAnimalContent,
+.rSleepApneaContent,
+.rIncomeProtectorContent,
+.rExtendCancerContent,
+.rOralMedicationContent {
+    font-size: 16px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.rSumInsuredContentInput,
+.rPreAndPostNatalContentInput,
+.rTroicLenceContentInput,
+.rLasikSurgeryContentInput,
+.rAnimalContentInput,
+.rSleepApneaContentInput,
+.rIncomeProtectorContentInput,
+.rExtendCancerContentInput,
+.rOralMedicationContentInput {
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 80px;
+    box-shadow: none;
+}
+
+.rSumInsuredContentInput:disabled,
+.rPreAndPostNatalContentInput:disabled,
+.rTroicLenceContentInput:disabled,
+.rLasikSurgeryContentInput:disabled,
+.rAnimalContentInput:disabled,
+.rSleepApneaContentInput:disabled .rIncomeProtectorContentInput:disabled,
+.rExtendCancerContentInput:disabled,
+.rOralMedicationContentInput:disabled {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+}
+
+.rSumInsuredContentInput:focus,
+.rPreAndPostNatalContentInput:focus,
+.rTroicLenceContentInput:focus,
+.rLasikSurgeryContentInput:focus,
+.rAnimalContentInput:focus,
+.rSleepApneaContentInput:focus,
+.rIncomeProtectorContentInput:focus,
+.rExtendCancerContentInput:focus,
+.rOralMedicationContentInput:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.rDayCareTreatment-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.rDayCareTreatment {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.rDayCareTreatmentSelect {
+    margin-left: 80px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 700px;
+    box-shadow: none;
+}
+
+.rDayCareTreatmentSelect:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+.twoInputCheckbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+}
+
+.twoInputCheckbox-header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+
+}
+
+.twoInputCheckbox-enabledCheckbox {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.twoInputCheckbox-enabledCheckbox2 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.twoInputCheckbox-enabledCheckbox3 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 33px;
+    cursor: pointer;
+}
+
+.twoInputCheckbox-enabledCheckbox4 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 170px;
+    cursor: pointer;
+}
+
+.twoInputCheckbox-enabledCheckbox5 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 118px;
+    cursor: pointer;
+}
+
+.twoInputCheckbox-enabledCheckbox6 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.twoInputCheckbox-enabledCheckbox7 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 43px;
+    cursor: pointer;
+}
+
+.twoInputCheckbox-enabledCheckbox8 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.twoInputCheckbox-enabledCheckbox9 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 54px;
+    cursor: pointer;
+}
+
+.twoInputCheckboxContent {
+    font-size: 16px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.twoInputCheckboxContentInput {
+    padding: 3px 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 80px;
+    box-shadow: none;
+}
+
+.twoInputCheckboxContentInput:disabled {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+}
+
+.twoInputCheckboxContentInput:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.oneCheckbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+}
+
+.oneCheckbox-header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+
+}
+
+.oneCheckbox-enabledCheckbox {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox2 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 43px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox3 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 43px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox4 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox5 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox6 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox7 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 105px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox8 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 14px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox9 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 27px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox10 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 126px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox11 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox12 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox13 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 13px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox14 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 55px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox15 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox16 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox17 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 82px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox18 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 145px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox19 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox20 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 85px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox21 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox22 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox23 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox24 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 102px;
+    cursor: pointer;
+}
+
+.oneCheckbox-enabledCheckbox25 {
+    margin-right: 5px;
+    transform: scale(1.5);
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.oneCheckbox-content {
+    font-size: 16px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1vh;
+}
+
+
+.gmcFormSubmit {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+
+.gmcFormSubmit::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.15);
+    transition: width 0.3s ease, height 0.3s ease, top 0.3s ease, left 0.3s ease;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.gmcFormSubmit:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.gmcFormSubmit:hover::before {
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+}
+
+.gmcFormSubmit:active {
+    transform: scale(0.95);
+}
+
+
+  
+  
+  
+
+
+
+
+
+@media (max-width: 768px) {
+    .Clent-info-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .row1-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .policyPeriodContainer {
+        flex-direction: column;
+    }
+
+    .policyPeriodStartInput,
+    .policyPeriodEndInput {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .policyPeriodStart,
+    .policyPeriodEnd {
+        margin-bottom: 10px;
+    }
+
+    .row2-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .row3-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .row4-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .row5-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .renewalRow1-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .renewalRow2-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 480px) {
+    .Clent-info-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .row1-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .row2-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .row3-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .row4-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .row5-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .renewalRow1-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .renewalRow2-grid-container {
+        grid-template-columns: 1fr;
+    }
+}
