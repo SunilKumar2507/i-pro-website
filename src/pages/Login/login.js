@@ -16,11 +16,11 @@ const LoginForm = () => {
     
             if (isResetPassword) {
                 // Correct URL for reset password
-                url = 'http://localhost:3001/reset-password';
+                url = 'http://teamipro.in:3001/reset-password';
                 body = JSON.stringify({ email });
             } else {
                 // Correct URL for login
-                url = 'http://localhost:3001/';
+                url = 'http://teamipro.in:3001/';
                 body = JSON.stringify({ email, password });
             }
     

@@ -321,7 +321,7 @@ const GmcForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    axios.post('http://localhost:3001/api/insert-gmc', formData)
+    axios.post('http://teamipro.in:3001/api/insert-gmc', formData)
       .then(response => {
         console.log(response.data);
         alert('Data inserted successfully!');

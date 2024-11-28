@@ -1,0 +1,51 @@
+
+table {
+    position: absolute;
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    right: 2.5rem;
+}
+.applyleave{
+    position: absolute;
+    width: 250px;
+    left:0.5rem;
+    top:7rem;
+}
+
+.Companyholidays{
+    position: absolute;
+        width: 250px;
+        left: 0.5rem;
+        top: 10.2rem;
+}
+
+.approver{
+    position: absolute;
+        width: 250px;
+        left: 0.5rem;
+        top: 16.6rem;
+}
+
+.LeaveSubmitted{
+    position: absolute;
+        width: 250px;
+        left: 0.5rem;
+        top: 13.4rem;
+}
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #6AB0E3;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+} 

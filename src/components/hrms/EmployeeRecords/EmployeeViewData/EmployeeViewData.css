@@ -1,0 +1,148 @@
+.rectangle-box {
+    position: absolute;
+    top: 7rem;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.header-row {
+    background-color: #6AB0E3;
+    /* Blue background for header */
+    padding: 15px;
+    /* Add padding for spacing */
+    border-radius: 10px;
+    /* Optional: rounds the header corners */
+    display: grid;
+    /* Use grid to structure the header */
+    grid-template-columns: repeat(7, 1fr);
+    /* 8 equal columns for headers, added one for actions */
+    text-align: center;
+    /* Center align text in headers */
+}
+
+.data-container {
+    margin-top: 10px;
+    /* Adds space between header and data rows */
+}
+
+.data-row {
+    display: grid;
+    /* Use grid to arrange data */
+    grid-template-columns: repeat(7, 1fr);
+    /* 8 equal columns for data, added one for actions */
+    align-items: center;
+    /* Align items vertically */
+    padding: 5px 0;
+    /* Adjusted padding for data rows */
+    text-align: center;
+    /* Center align text in data rows */
+}
+
+.hr-line {
+    border: 1px solid #ccc;
+    /* Style for horizontal line */
+    margin: 10px 0;
+    /* Space above and below the line */
+}
+
+.rectangle-box1 {
+    padding: 10px;
+
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+.search-container {
+
+    position: relative;
+    top: -0.8rem;
+    left: -34rem;
+
+    /* Allow absolute positioning for the icon */
+    width: 350px;
+    /* Set fixed width for the container */
+    margin: 0 auto;
+    /* Center the search box horizontally */
+}
+
+
+.search-input {
+    width: 110%;
+    height: 40px;
+    /* Make the input take full width of the container */
+    padding: 10px 40px 10px 20px;
+    /* Add padding for text and space for the icon */
+    border: 1px solid #6AB0E3;
+    /* Add border for the input */
+    border-radius: 5px;
+    background-color: #ffffff;
+    /* Round the corners */
+    font-size: 16px;
+    /* Adjust font size */
+}
+.icon{
+    position: absolute;
+    left:85rem;
+    height: 30px;
+}
+
+.icons {
+    position: absolute;
+    left: 88rem;
+    height: 30px;
+}
+.search-icon {
+    position: absolute;
+
+    /* Position the icon absolutely within the container */
+    left: 22rem;
+    /* Space from the left */
+    top: 50%;
+    /* Center vertically */
+    transform: translateY(-50%);
+    /* Adjust to align with the center */
+    color: #999;
+    /* Optional: Change the color of the icon */
+    pointer-events: none;
+    /* Prevent clicking on the icon */
+}
+
+.add-employee-button {
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    top: 4.5rem;
+    left: 79rem;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #6AB0E3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.add-employee-button:hover {
+    background-color: #0056b3;
+}
+
+.status-button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.status-button.active {
+    background-color: green;
+    /* Green for Active */
+}
+
+.status-button.deactive {
+    background-color: red;
+    /* Red for Deactive */
+}
+

@@ -1,0 +1,449 @@
+.firstname {
+    position: absolute;
+    top: 7rem;
+    left: 3rem;
+
+    width: 350px;
+}
+
+.Middlename {
+    position: absolute;
+    top: 7rem;
+    left: 26rem;
+    width: 350px;
+}
+
+.Lastname{
+    position: absolute;
+    top: 7rem;
+    left: 49rem;
+    width: 350px;
+}
+
+.Password {
+    position: absolute;
+    top: 12.5rem;
+    left: 3rem;
+    width: 350px;
+}
+
+.Managername {
+    position: absolute;
+    top: 14rem;
+    left: 3rem;
+    width: 350px;
+}
+
+.PersonalEmail {
+    position: absolute;
+    top: 12.5rem;
+    left: 26rem;
+    width: 350px;
+}
+
+.MobileNumber {
+    position: absolute;
+    top: 12.5rem;
+    left: 49rem;
+    width: 350px;
+}
+
+.Gender {
+    position: absolute;
+    top: 19rem;
+    left: 3rem;
+    width: 350px;
+}
+
+.Joiningdate1 {
+    position: absolute;
+    top: 24rem;
+    /* Adjust as necessary */
+    left: 26rem;
+    width: 350px;
+
+    /* Match Address width */
+}
+
+.datepicker-container1 {
+    width: 165%;
+}
+
+.datepicker {
+    width: 165%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.Exitdate {
+    position: absolute;
+    top: 24rem;
+    /* Adjust as necessary */
+    left: 49rem;
+    width: 350px;
+    /* Match Address width */
+}
+
+.datepicker-container1 {
+    width: 165%;
+}
+
+.empID {
+    position: absolute;
+    top: 18.3rem;
+    left: 3rem;
+    width: 350px;
+}
+
+.assign-role {
+    position: absolute;
+    top: 18.7rem;
+    left: 26rem;
+    margin-bottom: 20px;
+    /* Adds space below the field */
+}
+
+.assign-role label {
+    display: block;
+    /* Make label take full width */
+    margin-bottom: 5px;
+    /* Space between label and select */
+
+    /* Optional: makes the label text bold */
+}
+
+.assign-role select {
+    width: 350px;
+    /* Set width */
+    height: 47px;
+    /* Set height */
+    padding: 10px;
+    /* Adds padding inside the select */
+    border: 1px solid #FF5733;
+    /* Orange border */
+    border-radius: 4px;
+    /* Slightly rounded corners */
+    box-sizing: border-box;
+    /* Ensures padding is included in width */
+    font-size: 16px;
+    /* Optional: sets font size */
+    outline: none;
+    /* Removes default outline on focus */
+    transition: border-color 0.3s;
+    /* Optional: smooth transition for border color */
+}
+
+.assign-role select:focus {
+    border-color: #007BFF;
+    /* Change border color on focus */
+}
+
+.datepicker {
+    width: 165%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.pincode {
+    position: absolute;
+    top: 24.5rem;
+    left: 3rem;
+    width: 350px;
+}
+
+
+
+.stateDropdown {
+    position: absolute;
+    top: 31rem;
+    left: 26rem;
+    width: 350px;
+}
+
+.cityDropdown {
+    position: absolute;
+    top: 30.2rem;
+    left: 49rem;
+    width: 350px;
+    
+}
+
+.DateOfBirth1 {
+    position: absolute;
+    width: 350px;
+    top: 19rem;
+    left: 26rem;
+    /* Set the width for the container */
+    margin-bottom: 20px;
+    /* Add some space below the section */
+}
+
+
+
+.datepicker1 {
+    border: none;
+    /* Remove default border */
+    outline: none;
+    /* Remove outline */
+    height: 250%;
+    /* Full height of the container */
+    width: 350px;
+    /* Full width */
+    font-size: 16px;
+    /* Set font size */
+}
+
+.department {
+    position: absolute;
+    top: 18.7rem;
+    left: 49rem;
+    margin-bottom: 20px;
+    /* Adds space below the field */
+}
+
+.department label {
+    display: block;
+    /* Make label take full width */
+    margin-bottom: 5px;
+    /* Space between label and select */
+
+}
+
+.department select {
+    width: 350px;
+    /* Set width */
+    height: 47px;
+    /* Set height */
+    padding: 10px;
+    /* Adds padding inside the select */
+    border: 1px solid #4CAF50;
+    /* Green border */
+    border-radius: 10px;
+    /* Slightly rounded corners */
+    box-sizing: border-box;
+    /* Ensures padding is included in width */
+    font-size: 16px;
+    /* Optional: sets font size */
+    outline: none;
+    /* Removes default outline on focus */
+    transition: border-color 0.3s;
+    /* Optional: smooth transition for border color */
+}
+
+.department select:focus {
+    border-color: #007BFF;
+    /* Change border color on focus */
+}
+
+.reporting-manager {
+    position: absolute;
+    top: 3rem;
+    left: 49rem;
+    width: 350px;
+}
+
+.countryDropdown {
+    position: absolute;
+    top: 31rem;
+    left: 3rem;
+    width: 350px;
+}
+
+.DateOfJoining {
+    position: absolute;
+    top: 24.5rem;
+    left: 3rem;
+    width: 350px;
+}
+
+.DateOfExit {
+    position: absolute;
+    top: 24.5rem;
+    left: 26rem;
+    width: 350px;
+}
+
+.state {
+    position: absolute;
+    top: 30.4rem;
+    left: 26rem;
+    width: 350px;
+}
+
+.city {
+    position: absolute;
+    top: 30.5rem;
+    left: 49rem;
+    width: 350px;
+}
+
+.save-button {
+    position: absolute;
+    top: 57rem;
+    left: 36rem;
+    width: 200px;
+    background-color: green;
+}
+
+.close {
+    position: absolute;
+    top: 57rem;
+    left: 22rem;
+    width: 200px;
+    background-color: red;
+}
+.FamilyContact{
+    position: absolute;
+        top: 36.5rem;
+        left: 3rem;
+        width: 350px;
+}
+
+.Familyemail{
+    position: absolute;
+        top: 36.5rem;
+        left: 26rem;
+        width: 350px;
+}
+
+.permanentaddress{
+position: absolute;
+    top: 42.5rem;
+    left: 3rem;
+    width: 710px;
+    
+}
+
+.address {position: absolute;
+top: 24.5rem;
+left: 26rem;
+width: 710px;}
+
+.permanentaddress{
+    
+}
+.employeementtype{
+    display: flex;
+    position: absolute;
+        top: 36.5rem;
+        left: 49rem;
+}
+.fulltimecheckbox{
+  
+        position: absolute;
+        top: 38rem;
+        left: 49rem;
+}
+.parttimecheckbox{
+    position: absolute;
+        top: 38rem;
+        left: 55.5rem;
+}
+.contractcheckbox{
+    position: absolute;
+        top: 38rem;
+        left: 62rem;
+}
+/* Style for the checkboxes */
+input[type="checkbox"] {
+    width: 18px;
+    /* Adjust width */
+    height: 18px;
+    /* Adjust height */
+    margin-right: 10px;
+    margin-top:20px;
+    /* Space between checkbox and label */
+    cursor: pointer;
+    /* Makes the checkbox clickable */
+}
+
+/* Optional: Add some custom styling to the toggle switch */
+
+
+
+
+
+
+/* Optional: To make the text size smaller */
+label {
+    font-size: 14px;
+    /* Adjust text size */
+}
+.p1{
+    position: absolute;
+        top: 3rem;
+        left: -5rem;
+}
+.p2{
+    position: absolute;
+        top: 3rem;
+        left: 5rem;
+}
+.parttime-timing{
+    position: absolute;
+        top: 2.5rem;
+        left: -2rem;
+        width: 100px;
+        font-size: 12px;
+        height: 30px;
+}
+.parttime-timings{
+    position: absolute;
+        top: 2.5rem;
+        left: 7rem;
+        width: 100px;
+        font-size: 12px;
+        height: 30px;
+}
+.contractStartDate{
+    position: absolute;
+        top: 3rem;
+        left: -12rem;
+}
+.contractEndDate{
+    position: absolute;
+        top: 3rem;
+        left: -2rem;
+        
+}
+.contractStartDatePicker{
+    position: absolute;
+        top: 2.5rem;
+        left: -7.6rem;
+        width: 80px;
+        font-size: 12px;
+        height: 30px;
+}
+.contractEndDatePicker{
+    position: absolute;
+        top: 2.5rem;
+        left: 1.9rem;
+        width: 80px;
+        font-size: 12px;
+        height: 30px;
+}
+
+.reportingmanager{
+    position: absolute;
+    top: 45rem;
+        left: 49rem;
+        width: 350px;
+}
+
+.jobTitle{
+    position: absolute;
+        top: 51.5rem;
+        left: 3rem;
+        width: 350px;
+}
+
+.noticeperiod{
+    position: absolute;
+        top: 52rem;
+        left: 26.2rem;
+        width: 350px;
+}
